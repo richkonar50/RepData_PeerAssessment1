@@ -48,7 +48,7 @@ library(ggplot2)
 
 
 ```r
-data <- read.csv("/Users/richkonar/activity.csv", header = TRUE, sep = ',', colClasses = c("numeric", "character", "integer"))
+data <- read.csv("activity.csv", header = TRUE, sep = ',', colClasses = c("numeric", "character", "integer"))
 ```
 
 #Tidying Data
